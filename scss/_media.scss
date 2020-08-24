@@ -1,0 +1,147 @@
+@media screen and (max-width: 1000px) {
+
+   .team-link {
+      margin: 0;
+   }
+   .team-people-item {
+      display: block;
+   }
+   .portfolio {
+      margin: 0;
+      margin-top: 30px;
+   }
+}
+@media screen and (max-width: 650px) {
+   .header {
+      width: 100%;
+      height: 580px;
+   }
+   .portfolio-content-text {
+      margin: 5px;
+   }
+   .navbar {
+      display: block;
+   }
+   .header-text {
+      margin-top: 50px;
+      text-align: center;
+      &-title {
+         width: 100%;
+      }
+
+      &-suptitle {
+         line-height: normal;
+      }
+   }
+   .macbook {
+      width: 320px;
+
+      background-size: auto cover;
+      margin-bottom: 40px;
+   }
+}
+@media screen and (max-width: 480px) {
+   .header {
+      width: 100%;
+      height: 480px;
+   }
+
+   .macbook {
+      width: 411px;
+      background-size: auto;
+      margin-bottom: 20px;
+   }
+
+   .header-text {
+      margin-top: 20px;
+      text-align: center;
+      &-title {
+         width: 100%;
+
+         font-size: 26px;
+
+         line-height: normal;
+      }
+
+      &-suptitle {
+         font-size: 14px;
+         line-height: normal;
+      }
+   }
+
+   .about {
+      display: block;
+      justify-content: center;
+      text-align: center;
+      margin-top: 15px;
+
+      &-item {
+         margin: 0 auto;
+         margin-bottom: 40px;
+      }
+   }
+
+   .portfolio {
+      display: block;
+      margin: 0;
+      text-align: center;
+   }
+
+   .team {
+      margin-top: 20px;
+      text-align: center;
+      &-link {
+         margin: 0;
+      }
+      
+      &-people-item {
+         display: block;
+         justify-content: center;
+
+         &-text {
+            font-size: 11px;
+         }
+      }
+   }
+   
+
+   .footer-text {
+      margin: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 10px;
+      img {
+         margin-right: 5px;
+      }
+   }
+}
+
+@media screen and (max-width: 375px) {
+   .macbook {
+      width: 320px;
+      background-size: auto;
+      margin: 0 auto;
+      margin-bottom: 20px;
+
+   }
+
+   .team-people {
+      display: block;
+   }
+
+   .team-people-item {
+      display: inline-block;
+   }
+
+   .team-people-item-text {
+      font-size: 9px;
+   }
+   .header-logo-title {
+      font-size: 14px;
+      padding: 23px 10px 10px 10px;
+   }
+
+}
+
+
+
